@@ -2,6 +2,7 @@
   "name": "figma_clone",
   "version": "0.1.0",
   "private": true,
+  "type": "commonjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,6 +16,7 @@
     "canvas": "^2.11.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "css-loader": "^7.1.1",
     "fabric": "^5.3.0",
     "lucide-react": "^0.367.0",
     "next": "14.1.4",

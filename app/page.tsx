@@ -15,9 +15,9 @@ export default function Page() {
   const fabricRef = useRef<fabric.Canvas | null>(null);
   const isDrawing = useRef(false);
 
-  useEffect(() => {
-    const canvas = initializeFabric({canvasRef, fabricRef})
-  }, [])
+  // useEffect(() => {
+  //   const canvas = initializeFabric({canvasRef, fabricRef})
+  // }, [])
 
   return (
     <main className="h-screen overflow-hidden">
